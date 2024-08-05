@@ -1,7 +1,7 @@
 npipeline {
     agent any
     stages {
-        stage('diff') {
+        stage('build') {
             steps {
                 bat 'python check.py'
             }
