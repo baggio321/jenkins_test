@@ -1,7 +1,7 @@
-pipeline {
+npipeline {
     agent any
     stages {
-        stage('build') {
+        stage('diff') {
             steps {
                 bat 'python check.py'
             }
